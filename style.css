@@ -1,0 +1,151 @@
+*{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            align-items:center;
+            height: 100vh;
+        }
+        .outline{
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            align-items:center;
+            width: 350px;
+            text-align: center;
+            height: 350px;
+            position: relative;
+            background-image: url(https://img.freepik.com/free-vector/realistic-luxury-background_23-2149331831.jpg?w=2000);
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 20px 20px 10px grey;
+            padding: 10px;
+        }
+        .con{
+            display: flex;
+            /* border: 1px solid red; */
+            width: 100%;
+        }
+        .from,.To{
+            width: 100%;
+            /* border: 1px solid red; */
+            padding: 10px;
+        }
+        select{
+            width: 100%;
+            height: 40px;
+            font-size: 18px;
+            padding: 5px;
+        }
+        h4{
+            font-size: 20px;
+            float: left;
+            /* border: 1px solid red; */
+            text-align: left;
+            margin-bottom: 5px;
+
+        }
+        .input-box{
+            display: flex;
+            flex-direction: column;
+            /* border: 1px solid red; */
+            width: 100%;
+            padding: 10px;
+        }
+        input{
+            margin-top: 5px;
+            margin-bottom: 10px;
+            height: 35px;
+            font-size: 18px;
+            padding: 10px;
+        }
+        .ans-box{
+            display: flex;
+        }
+        .input-box  button{
+            display: inline-block;
+            width: 30%;
+            height: 35px;
+            font-size: 18px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .input-box span{
+            padding:8px;
+        }
+        .ans-box > span{
+            display: inline-block;
+            border: 1px solid black;
+            height: 35px;
+            font-size: 18px;
+            padding: 10px;
+            padding-top: 5px;
+            margin-top: 5px;
+        }
+        .headbox{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            width: 50%;
+        }
+        .headbox img{
+            margin-top: 25px;
+            width: 200px;
+            height: 200px;
+        }
+        .contant{
+            font-size: 20px;
+            padding: 10px;
+            margin: 10px;
+            margin-bottom: 20%;
+           
+        }
+        .contant h2{
+            font-size: 40px;
+            padding: 10px;
+        }
+        .contant p{
+            padding: 10px;
+        }
+        .contant li{
+            margin-left: 25px;
+            
+        }
+        @media screen and (max-width:750px){
+            .headbox{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+        }
+        .contant{
+            font-size: 18px;
+            padding: 5px;
+            margin: 0px; 
+            margin-bottom: 10%;
+        }
+        .contant h2{
+            font-size: 30px;
+            padding: 10px;
+        }
+        .headbox img{
+            width: 100px;
+            height: 100px;
+        }
+        body{
+            justify-content:flex-start;
+        }
+            
+        }
+        .input-box p{
+            text-align: left;
+            color: red;
+            font-size: 20px;
+            padding-bottom: 10px;
+            display: none;
+        }
+       

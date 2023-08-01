@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coverter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="headbox">
+    <div>
+      <img src="baselogo.jpg">
+    </div>
+    <div class="contant">
+      <h2>Number Base Converter</h2>
+      <p>You can use this tool to convert your number from one base to another</p>
+      <ul>
+        <li>Binary</li>
+        <li>Decimal</li>
+        <li>Octal</li>
+        <li>Hexadecimal</li>
+      </ul>
+    </div>
+  </div>
+  <div class="outline">
+    <div class="con">
+      <div class="from">
+        <h4>From</h4>
+        <select id="baseselect">
+          <option value="2">Binary</option>
+          <option value="10">Decimal</option>
+          <option value="8">Octal</option>
+          <option value="16">Hexadecimal</option>
+        </select>
+      </div>
+      <div class="To">
+        <h4>To</h4>
+        <select id="baseconvert">
+          <option value="2">Binary</option>
+          <option value="10">Decimal</option>
+          <option value="8">Octal</option>
+          <option value="16">Hexadecimal</option>
+        </select>
+      </div>
+    </div>
+    <div class="input-box">
+      <h4>Enter<span id="inputtype">binary</span>Number</h4>
+      <input type="text" id="inputnum" />
+      <p id="error">Enter valid number</p>
+      <div>
+        <button type="button" onclick="convertor()">Convert</button>
+        <button type="button" onclick="cleardata()">Clear</button>
+      </div>
+      <h4>Answer</h4>
+      <div class="ans-box">
+        <input type="text" id="answerbox" disabled />
+        <span id="ans-base">10</span>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="convert.js"></script>
+<script src="convertBinary.js"></script>
+<script src="app.js"></script>
+
+</html>
